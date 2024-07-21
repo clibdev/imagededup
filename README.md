@@ -19,9 +19,9 @@ python setup.py build_ext --inplace
 
 # Pretrained models
 
-| Name                    | Link                                                                                                                                                                                                              |
-|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| MobileNetV3-Small-Dedup | [PyTorch](https://github.com/clibdev/imagededup/releases/latest/download/https://mobilenetv3-small-dedup.pt), [ONNX](https://github.com/clibdev/imagededup/releases/latest/download/mobilenetv3-small-dedup.onnx) |
+| Name                    | Link                                                                                                                                                                                                      |
+|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| MobileNetV3-Small-Dedup | [PyTorch](https://github.com/clibdev/imagededup/releases/latest/download/mobilenetv3-small-dedup.pt), [ONNX](https://github.com/clibdev/imagededup/releases/latest/download/mobilenetv3-small-dedup.onnx) |
 
 # Demo
 
