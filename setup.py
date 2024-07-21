@@ -53,7 +53,7 @@ if use_cython and on_mac:
             extra_compile_args=COMPILE_LINK_ARGS + COMPILE_ARGS_OSX,
             extra_link_args=COMPILE_LINK_ARGS + LINK_ARGS_OSX,
         )
-    ])
+    ], language_level='3str')
 elif use_cython and on_windows:
     ext_modules += cythonize([
         Extension(
@@ -61,7 +61,7 @@ elif use_cython and on_windows:
             [MOD_PATH + '.pyx'],
             language='c++',
         )
-    ])
+    ], language_level='3str')
 elif use_cython:
     ext_modules += cythonize([
         Extension(
@@ -71,7 +71,7 @@ elif use_cython:
             extra_compile_args=COMPILE_LINK_ARGS,
             extra_link_args=COMPILE_LINK_ARGS,
         )
-    ])
+    ], language_level='3str')
 else:
     if on_mac:
         ext_modules += [Extension(MOD_NAME,
