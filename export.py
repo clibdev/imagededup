@@ -20,7 +20,7 @@ if __name__ == '__main__':
     torch.onnx.export(
         model,
         dummy_input,
-        'mobilenetv3-small-dedup.onnx',
+        model_path,
         verbose=False,
         input_names=['input'],
         output_names=['output'],
