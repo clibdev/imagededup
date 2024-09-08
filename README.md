@@ -19,6 +19,8 @@ python setup.py build_ext --inplace
 
 # Pretrained models
 
+* Download links:
+
 | Name                    | Model Size (MB) | Link                                                                                                                                                                                                        | SHA-256                                                                                                                              |
 |-------------------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | MobileNetV3-Small-Dedup | 3.7<br>3.6      | [PyTorch](https://github.com/clibdev/imagededup/releases/latest/download/mobilenetv3-small-dedup.pt)<br>[ONNX](https://github.com/clibdev/imagededup/releases/latest/download/mobilenetv3-small-dedup.onnx) | e04376504b51694ec16ea5473eaf7ba419061953323d89c8e2e3f0bd2087e51b<br>cfdb10bd95a6b02c1c41618e2d9037d0ca835279c6d8b4d93553a7a04c5ca327 |
